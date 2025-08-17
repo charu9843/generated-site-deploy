@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #9a85ac; /* Purple background */
+      color: #333;
+    }
+
+    /* Navbar */
+    nav {
+      background: #fff;
+      padding: 15px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #0066ff;
+    }
+
+    /* Make "B.Tech Information Technology" black and not bold */
+    nav .logo span {
+      font-weight: normal;
+      color: black;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: black;   /* Black color for navbar links */
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #0066ff;
+    }
+
+    /* Section Title */
+    .section-title {
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      margin-top: 40px;
+      color: #0066ff;
+    }
+
+    /* Project Card */
+    .project-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #fff;
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 900px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .project-text {
+      flex: 1;
+      padding-right: 20px;
+    }
+
+    .project-text h2 {
+      color: #0066ff;
+      margin-bottom: 10px;
+    }
+
+    .project-text p {
+      margin: 8px 0;
+      line-height: 1.6;
+    }
+
+    .project-img img {
+      width: 400px;
+      border-radius: 50px;
+      height: 400px;   /* Adjust as per your need */
+      object-fit: cover;  
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">CHARUTHI V / <span>B.Tech Information Technology</span></div>
+    <ul>
+      <li><a href="index.html">ABOUT ME</a></li>
+      <li><a href="resume.html">RESUME</a></li>
+      <li><a href="project.html">PROJECTS</a></li>
+    </ul>
+  </nav>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h1 class="section-title">AI Based Mini Project</h1>
+
+    <div class="project-card">
+      <div class="project-text">
+        <h2>AI Website Builder Using Speech Recognition</h2>
+        <p><strong>Objective:</strong> To design a system that transforms Tamil voice input into functional websites using AI, enabling effortless website creation. The goal is to provide real-time preview and download options, making development accessible for all users.</p>
+        <p><strong>Technologies Used:</strong><br>
+          
+          Frontend: HTML, CSS, JavaScript <br>
+          Backend: Node.js with Express.js <br>
+          AI Integration: OpenAI GPT API <br>
+          Speech Processing: Web Speech API (Tamil Speech-to-Text) <br>
+          Deployment: GitHub + Microsoft Azure Web App <br>
+        </p>
+        <p><strong>Description:</strong> The system allows users to create complete websites through Tamil voice commands. Spoken inputs are recognized, translated, and interpreted by an AI model to generate responsive website code automatically. The platform also offers instant preview and a download option, making website creation fast and accessible without manual coding.</p>
+        <p>
+          <strong>Deployment Link:</strong>
+          <a href="https://finalvoicewebsitee-hcaxdghpckfqesc8.southeastasia-01.azurewebsites.net" target="_blank">
+            finalvoicewebsitee-hcaxdghpckfqesc8.southeastasia-01.azurewebsites.net
+          </a>
+        </p>
+      </div>
+      <div class="project-img">
+        <img src="aiminipro.jpg" alt="AI Mini Project">
+      </div>
+    </div>
+  </section>
+</body>
+</html>

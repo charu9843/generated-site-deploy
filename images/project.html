@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Healthcare Chat Platform | Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #9a85ac;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      background-color: #ffffff !important;
+      border-bottom: 1px solid #eaeaea;
+    }
+
+    .nav-link {
+      margin-left: 15px;
+      font-weight: 500;
+      color: #333 !important;
+      transition: color 0.3s ease;
+    }
+
+    .nav-link:hover {
+      color: #007bff !important;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .navbar .ms-auto {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+      }
+
+      .nav-link {
+        margin-left: 0;
+        margin-bottom: 8px;
+      }
+
+      .navbar span {
+        display: block;
+        margin-top: 5px;
+      }
+    }
+
+    .project-card {
+      background-color: #ffffff;
+      border-left: 6px solid #0055ff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-card h4 {
+      color: #0055ff;
+      font-weight: 700;
+    }
+
+    .project-card p {
+      color: #333;
+      font-size: 0.95rem;
+    }
+
+    .download-btn {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      background-color: #0055ff;
+      color: white;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .download-btn:hover {
+      background-color: #0041cc;
+    }
+  
+
+    @media (max-width: 768px) {
+      .download-btn {
+        right: 10px;
+        top: 10px;
+        padding: 8px 14px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg shadow-sm py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#">CHARUTHI V</a>
+      <span class="text-secondary">/ B.Tech Information Technology</span>
+      <div class="ms-auto d-flex">
+        <a class="nav-link text-dark" href="index.html">ABOUT ME</a>
+        <a class="nav-link text-dark" href="resume.html">RESUME</a>
+        <a class="nav-link text-dark" href="project.html">PROJECTS</a>
+      </div>
+    </div>
+  </nav>
+   <div class="container my-5">
+  <h2 class="text-center fw-bold text-primary" style="font-size: 2.5rem;">Projects</h2>
+</div>
+
+  <!-- Project 1 -->
+  <div class="container my-5">
+    <div class="row project-card align-items-center">
+      <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+        <h4>Healthcare Chat Platform</h4>
+        <p><strong>Objective:</strong> Improved communication between doctors and patients via a web-based platform.</p>
+        <p><strong>Technologies Used:</strong><br>
+          Frontend: HTML, CSS, JAVASCRIPT<br>
+          Backend: Python, FastAPI
+        </p>
+        <p><strong>Description:</strong> Led front-end and back-end development, optimizing platform functionality and improving doctor-patient communication through a user-friendly web interface.</p>
+        <p><strong>Guided by:</strong> Coderzbot Innovation.</p>
+      </div>
+      <div class="col-lg-6 col-md-12 text-center">
+        <img src="https://media.istockphoto.com/id/1460099874/photo/nurse-checking-on-a-patient.jpg?s=612x612&w=0&k=20&c=Nc1xxXBioaZDooQynLqPAcSAI5TPtBPd89D5XfwTCy0=" 
+             alt="Healthcare Chat Platform" 
+             class="img-fluid rounded">
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="container my-5">
+    <div class="row project-card align-items-center">
+      <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+        <h4>Efficient CNN for Plant Disease Classification</h4>
+        <p><strong>Objective:</strong> An Improved And Efficient CNN Approach For Generalizable Plant Leaf Disease Classification</p>
+        <p><strong>Technologies Used:</strong><br>
+          EfficientNet (CNN), Python, Image Processing Techniques
+        </p>
+        <p><strong>Description:</strong> Developed a deep learning model using EfficientNet (CNN) for plant leaf disease detection. Applied image preprocessing techniques like resizing, flipping, and brightness adjustment to enhance model performance. Achieved 97% accuracy in detecting diseases such as Scab, Black Rot, and Cedar Rust.</p>
+        <p><strong>Purpose:</strong> To assist farmers and agricultural experts in accurately diagnosing plant diseases at an early stage using deep learning, thereby improving crop health and reducing losses.</p>
+
+      </div>
+      <div class="col-lg-6 col-md-12 text-center">
+      <img src="download (1).jpg"
+     alt="Plant Disease Classification"
+     class="img-fluid rounded"
+     style="max-width: 100%; width: 700px; height: auto;">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="container my-5">
+    <div class="row project-card align-items-center">
+      <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+        <h4>Art Gallery Management System</h4>
+        <p><strong>Objective:</strong> Streamlined operations for an art gallery by developing a robust database management system on Oracle APEX.</p>
+        <p><strong>Technologies Used:</strong><br>
+          Frontend: Oracle APEX<br>
+          Backend: Oracle SQL
+        </p>
+        
+        <p><strong>Description:</strong> Built and managed both the front-end and back-end using Oracle APEX, making it easy to handle artists, artworks, exhibitions, and sales. Created a fast, efficient database and set up real-time data processing to improve productivity.</p>
+        <p><strong>Purpose:</strong> To digitally transform and simplify the day-to-day operations of an art gallery, enhancing the management of artworks, artists, and exhibitions through an efficient, centralized database system.</p>
+
+    </div>
+      <div class="col-lg-6 col-md-12 text-center">
+        <img src="art images.jpg" 
+             alt="Art Gallery Management System" 
+             class="img-fluid rounded"
+             style="max-width: 100%; width: 700px; height: auto;">
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
